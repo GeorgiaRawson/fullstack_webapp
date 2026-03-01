@@ -3,6 +3,8 @@ const app = require("express").Router();
 
 // import the models
 const { Post } = require("../models/index");
+// importing middleware
+const { authMiddleware } = require("../utils/auth");
 
 // Route to add a new post
 app.post("/", async (req, res) => {
@@ -51,7 +53,7 @@ app.put("/:id", async (req, res) => {
 });
 
 // Route to delete a post
-app.delete("/:id", async (req, res) => {
+app.delete("/:id", authMiddleware, async (req, res) => {
   try {
     const post = await Post.destroy({ where: { id: req.params.id } });
     res.json(post);

@@ -80,11 +80,17 @@ function fetchPosts() {
       posts.forEach((post) => {
         const div = document.createElement("div");
         div.className = "post-card";
-        div.innerHTML = `<h3>${post.title}</h3><p>${
-          post.content
-        }</p><div class=post-meta><small>By: ${post.postedBy} on ${new Date(
-          post.createdOn
-        ).toLocaleString()}</small></div>`;
+        div.id = `post-container-${post.id}`; // Add an ID to the container for easy targeting
+  
+        div.innerHTML = `
+          <h3 id="title-${post.id}">${post.title}</h3>
+          <p id="content-${post.id}">${post.content}</p>
+          <div class="post-meta">
+            <small>By: ${post.postedBy}</small>
+          </div>
+          <button class="edit-btn" onclick="editPost(${post.id})">Edit</button>
+          <button class="delete-btn" onclick="deletePost(${post.id})">Delete</button>
+         `;
         postsContainer.appendChild(div);
       });
     });
@@ -106,4 +112,24 @@ function createPost() {
       alert("Post created successfully");
       fetchPosts();
     });
+}
+
+function deletePost(postId) {
+  if (!confirm("Are you sure you want to delete this post?")) return;
+
+  fetch(`http://localhost:3001/api/posts/${postId}`, {
+    method: "DELETE",
+    headers: { 
+        Authorization: `Bearer ${token}` 
+    },
+  })
+    .then((res) => {
+      if (res.ok) {
+        alert("Post deleted successfully");
+        fetchPosts(); 
+      } else {
+        alert("Failed to delete post. Check permissions.");
+      }
+    })
+    .catch((error) => console.log("Delete error:", error));
 }
