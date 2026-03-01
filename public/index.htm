@@ -9,6 +9,12 @@
 </head>
 
 <body>
+    <div class="contianer hidden" id="user-container">
+      <div class="user-bar">
+        <span>Welcome, User</span>
+        <button onclick="logout()" class="btn-logout">Logout</button>
+        </div>  
+    </div>
     <div class="hero">
         <h1>EHCP - A Parents Guide</h1>
     </div>
@@ -50,9 +56,6 @@
     </div>
 
     <div class="container hidden" id="app-container">
-        <h2>Welcome</h2>
-        <button onclick="logout()">Logout</button>
-        <hr>
         <h2>Create a Post</h2>
         <input type="text" id="post-title" placeholder="Title">
         <textarea id="post-content" placeholder="Content"></textarea>

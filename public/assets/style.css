@@ -105,6 +105,27 @@ input[type="submit"] {
 .logged-in .container { 
     max-width: 800px; text-align: left; 
 }
+.user-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px,0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.btn-logout {
+  width: auto !important;
+  background: transparent;
+  color: #7FB069;
+  border: 1px solid #7FB069;
+  padding: 5px 15px;
+  font-size: 14px;
+  transition: all 0.3s; 
+}
+.btn-logout:hover {
+  background-color: #7FB069;
+  color:white;
+}
 .post-card { 
     text-align: left; 
     padding: 20px; 

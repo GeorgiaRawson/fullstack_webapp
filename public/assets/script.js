@@ -35,6 +35,7 @@ function login() {
       // Save the token in the local storage
       if (data.token) {
         localStorage.setItem("authToken", data.token);
+        localStorage.setItem("username", data.username);
         token = data.token;
 
         alert("User Logged In successfully");
@@ -45,6 +46,7 @@ function login() {
         // Hide the auth container and show the app container as we're now logged in
         document.getElementById("auth-container").classList.add("hidden");
         document.getElementById("app-container").classList.remove("hidden");
+        document.getElementById("user-container").classList.remove("hidden");
         document.body.classList.add('logged-in');
       } else {
         alert(data.message);
@@ -62,6 +64,7 @@ function logout() {
   }).then(() => {
     // Clear the token from the local storage as we're now logged out
     localStorage.removeItem("authToken");
+    localStorage.removeItem("username");
     token = null;
     document.getElementById("auth-container").classList.remove("hidden");
     document.getElementById("app-container").classList.add("hidden");
@@ -99,17 +102,23 @@ function fetchPosts() {
 function createPost() {
   const title = document.getElementById("post-title").value;
   const content = document.getElementById("post-content").value;
+  if (!title || !content) {
+    alert("Please enter both a title and content.");
+    return;
+  }
   fetch("http://localhost:3001/api/posts", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({ title, content, postedBy: "User" }),
+    body: JSON.stringify({ title, content }),
   })
     .then((res) => res.json())
     .then(() => {
       alert("Post created successfully");
+      document.getElementById("post-title").value = "";
+      document.getElementById("post-content").value = "";
       fetchPosts();
     });
 }
@@ -132,4 +141,30 @@ function deletePost(postId) {
       }
     })
     .catch((error) => console.log("Delete error:", error));
+}
+
+function editPost(id) {
+  const currentTitle = document.getElementById(`title-${id}`).innerText;
+  const currentContent = document.getElementById(`content-${id}`).innerText;
+
+  const newTitle = prompt("Edit Title:", currentTitle);
+  const newContent = prompt("Edit Content:", currentContent);
+
+  if (newTitle && newContent) {
+    fetch(`http://localhost:3001/api/posts/${id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${token}`,
+      },
+      body: JSON.stringify({ title: newTitle, content: newContent }),
+    })
+      .then((res) => {
+        if (res.ok) {
+          alert("Post updated successfully");
+          fetchPosts();
+        }
+      })
+      .catch((err) => console.log("Edit error:", err));
+  }
 }
