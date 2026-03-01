@@ -1,11 +1,71 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+    background-color: #F9F7F2;
     margin: 0;
     padding: 20px;
 }
 
+.hero {
+    color: #2C3E50;
+    text-align: center;
+}
+.ehcp-info-header {
+  background: #f8f9fa;
+  border-left: 4px solid #2C3E50;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.timeline-meta {
+  font-size: 0.9rem;
+  color: #2C3E50;
+  margin-bottom: 1.2rem;
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.timeline-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.timeline-segment {
+  display: flex;
+  flex-direction: column;
+}
+
+.week-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #7FB069; 
+  letter-spacing: 0.5px;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #444;
+  margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+  .timeline-bar {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .timeline-segment {
+    padding-left: 15px;
+    border-left: 2px solid #dfe6e9;
+  }
+}
+#auth-container {
+   text-align: center;
+}
 .container {
     max-width: 400px;
     margin: auto;
@@ -35,14 +95,28 @@ textarea {
 
 input[type="submit"] {
     border: none;
-    background: #4aaaa5;
+    background: #3498DB;
     padding: 12px 20px;
     border-radius: 4px;
     cursor: pointer;
     color: #ffffff;
     font-size: 16px;
 }
-
+.logged-in .container { 
+    max-width: 800px; text-align: left; 
+}
+.post-card { 
+    text-align: left; 
+    padding: 20px; 
+    background: white; 
+    border-radius: 12px;
+ }
+.post-meta { 
+    margin-top: 15px; 
+    padding-top: 10px; 
+    border-top: 1px solid #eee; 
+    color: #777; 
+}
 .hidden {
     display: none;
 }

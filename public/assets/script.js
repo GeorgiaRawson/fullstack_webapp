@@ -45,6 +45,7 @@ function login() {
         // Hide the auth container and show the app container as we're now logged in
         document.getElementById("auth-container").classList.add("hidden");
         document.getElementById("app-container").classList.remove("hidden");
+        document.body.classList.add('logged-in');
       } else {
         alert(data.message);
       }
@@ -78,11 +79,12 @@ function fetchPosts() {
       postsContainer.innerHTML = "";
       posts.forEach((post) => {
         const div = document.createElement("div");
+        div.className = "post-card";
         div.innerHTML = `<h3>${post.title}</h3><p>${
           post.content
-        }</p><small>By: ${post.postedBy} on ${new Date(
+        }</p><div class=post-meta><small>By: ${post.postedBy} on ${new Date(
           post.createdOn
-        ).toLocaleString()}</small>`;
+        ).toLocaleString()}</small></div>`;
         postsContainer.appendChild(div);
       });
     });
