@@ -3,120 +3,160 @@
     "title": "A Deep Dive into the EHC Needs Assessment (EHCNA)",
     "content": "The EHC Needs Assessment is the first formal step in securing an EHCP. To trigger an assessment, the 'Legal Test' must be met: the local authority must believe the child or young person has or may have special educational needs, and it may be necessary for special educational provision to be made in accordance with an EHC plan. You do not need a medical diagnosis to request this; the focus is on the discrepancy between the child's progress and the support currently available through 'SEN Support' in school. Keep a log of all interventions the school has already tried, as this evidence is crucial.",
     "postedBy": "SEND Legal Advocate",
+    "username": "advocate_legal_send",
+    "category": "Assessments",
     "createdOn": "2024-04-01T09:00:00Z"
   },
   {
     "title": "Mastering Section F: The Duty to Specify and Quantify",
     "content": "Section F is the most litigated part of an EHCP because it contains the actual support. Legally, provision must be detailed and specific. Vague terms like 'regular', 'as required', or 'opportunities for' are generally not acceptable. Instead, the wording should look like: '30 minutes of 1:1 Speech and Language Therapy, delivered weekly by a qualified therapist, to be reviewed termly.' If the plan doesn't say who, how often, and for how long, it becomes very difficult to hold the Local Authority (LA) or school accountable if the support isn't delivered.",
     "postedBy": "Education Consultant",
+    "username": "edu_consult_pro",
+    "category": "EHCP Sections",
     "createdOn": "2024-04-02T10:30:00Z"
   },
   {
     "title": "The 20-Week Statutory Timeline: Every Deadline You Need to Know",
     "content": "The EHCP process is strictly governed by a 20-week maximum timeline from the initial request to the final plan. Key milestones include: Week 6 (The LA must tell you if they will assess), Week 16 (The LA must tell you if they will issue a plan), and Week 20 (The Final Plan must be issued). If the LA misses these deadlines due to 'staffing issues' or 'backlogs,' they are still in breach of their statutory duty. Parents can use model letters from organizations like IPSEA to formally complain and escalate the matter if these dates are missed.",
     "postedBy": "Compliance Officer",
+    "username": "compliance_lead",
+    "category": "Legal & Rights",
     "createdOn": "2024-04-03T11:15:00Z"
   },
   {
     "title": "Navigating 'Refusal to Assess' Decisions",
     "content": "If an LA refuses to carry out an assessment, they must explain why and notify you of your right to appeal to the First-tier Tribunal. Statistics show that the vast majority of 'Refusal to Assess' appeals are won by parents. Often, LAs refuse because they claim the school hasn't spent enough of their 'notional budget' (£6,000), but the law states the focus should be on the child's needs, not the school's finances. You have two months from the date of the decision letter to lodge an appeal, and you must consider mediation first (though you don't have to go through with it).",
     "postedBy": "SEND Rights Advisor",
+    "username": "rights_advisor_sen",
+    "category": "Appeals & Mediation",
     "createdOn": "2024-04-04T14:45:00Z"
   },
   {
     "title": "Section B vs. Section F: The 'Golden Thread'",
     "content": "There must be a clear link—often called the 'Golden Thread'—running through the EHCP. Every need identified in Section B (Special Educational Needs) must have a corresponding provision in Section F (Special Educational Provision) designed to meet that need. For example, if Section B identifies 'Difficulties with fine motor skills,' Section F must include something like 'Occupational Therapy sessions focusing on grip strength.' If you find a need in Section B without a matching provision in Section F, the plan is incomplete and legally vulnerable.",
     "postedBy": "Resource Hub Admin",
+    "username": "hub_admin_send",
+    "category": "EHCP Sections",
     "createdOn": "2024-04-05T08:20:00Z"
   },
   {
     "title": "The Annual Review: More Than Just a Meeting",
     "content": "An Annual Review is a formal process, not just a friendly chat with the SENCO. Its purpose is to see if the outcomes in the plan are being met and if the provision is still appropriate. The LA must notify you of their decision within 4 weeks of the review meeting: they will either maintain the plan as it is, amend it, or cease it. If they decide to amend it, they must start the amendment process immediately. If your child's needs have changed significantly mid-year, you do not have to wait for the 12-month mark; you can request an 'Emergency Annual Review' at any time.",
     "postedBy": "Parent Partnership Lead",
+    "username": "parent_partner_lead",
+    "category": "Annual Reviews",
     "createdOn": "2024-04-06T13:00:00Z"
   },
   {
     "title": "Understanding Section I: Naming a Placement",
     "content": "Section I is where the name and type of school or college are listed. While the Draft Plan is blank in Section I to allow for parental preference, the Final Plan must name a specific setting. Parents have a legal right to request a particular state-funded school. The LA can only refuse this request if the setting is unsuitable for the child’s age, ability, or SEN, or if the child’s attendance would be incompatible with the efficient education of others or the efficient use of resources. This 'efficiency' argument is often where disputes arise, especially regarding specialist vs. mainstream placements.",
     "postedBy": "SEND Admissions Specialist",
+    "username": "admissions_sen_pro",
+    "category": "School Placement",
     "createdOn": "2024-04-07T10:10:00Z"
   },
   {
     "title": "The Role of the Educational Psychologist in Assessment",
     "content": "During an EHC Needs Assessment, the LA *must* seek advice from an Educational Psychologist (EP). The EP should observe the child, speak to parents, and conduct assessments to understand how the child learns and what barriers they face. Their report is a vital piece of evidence. Parents should ensure the EP report includes specific recommendations for strategies and equipment. If the LA's EP report is too brief or 'vague,' parents often choose to commission an Independent EP report to provide a more detailed clinical picture for the Tribunal.",
     "postedBy": "Educational Psychologist (Private Practice)",
+    "username": "ep_private_practice",
+    "category": "Professional Advice",
     "createdOn": "2024-04-08T15:30:00Z"
   },
   {
     "title": "Personal Budgets and Direct Payments",
     "content": "A Personal Budget is the amount of money the LA has calculated is needed to provide the support in an EHCP. Parents can request a 'Direct Payment,' where they receive the funds to purchase the support themselves (e.g., hiring a specific therapist). This offers more control but comes with the responsibility of managing the funds and providing accounts to the LA. It’s important to note that you cannot use a Personal Budget to pay for a school place itself, but it can be used for things like transport or specialist 1:1 support within a setting.",
     "postedBy": "Finance & Benefits Support",
+    "username": "finance_support_send",
+    "category": "Finance & Funding",
     "createdOn": "2024-04-09T09:45:00Z"
   },
   {
     "title": "What Happens During Mediation?",
     "content": "Mediation is a confidential, informal dispute resolution process. If you disagree with an LA decision, you must contact a mediation service to get a certificate before you can appeal to a Tribunal (except for appeals solely about Section I). You can then choose to actually hold a mediation meeting. The goal is to reach an agreement without the stress of a court hearing. Any agreement reached and signed at mediation is legally binding. It is often a faster way to get changes made to a plan than waiting for a Tribunal date, which can take several months.",
     "postedBy": "Mediation Coordinator",
+    "username": "mediation_coord",
+    "category": "Appeals & Mediation",
     "createdOn": "2024-04-10T12:00:00Z"
   },
   {
     "title": "Social Care and the EHCP: Sections H1 and H2",
     "content": "EHCPs are not just for education. Section H1 must list any social care services provided under the Chronically Sick and Disabled Persons Act 1970 (like home care or respite). Section H2 lists other social care provision related to the child's SEN (like youth clubs or support to access the community). Crucially, provision in H1 is a legal duty for the LA to provide once it is in the plan. Integrating these social care needs ensures the plan supports the child's life outside of school hours and prepares them for independent living.",
     "postedBy": "Social Work Liaison",
+    "username": "social_work_link",
+    "category": "Social Care",
     "createdOn": "2024-04-11T16:20:00Z"
   },
   {
     "title": "Health Provision in Section G",
     "content": "Section G covers the health needs that are related to the child's SEN. This might include physiotherapy, occupational therapy, or specialist equipment like wheelchairs. While the Integrated Care Board (ICB) is responsible for delivering this, if a health provision (like SALT) also 'educates or trains' a child, it should technically be moved to Section F. This is a critical distinction because Section F provision is a legal duty of the LA, whereas Section G is the responsibility of the Health Service, which can be harder to enforce via the SEND Tribunal.",
     "postedBy": "Health Navigator",
+    "username": "health_nav_sen",
+    "category": "Health",
     "createdOn": "2024-04-12T08:50:00Z"
   },
   {
     "title": "Transition Planning (Year 9 and Beyond)",
     "content": "From Year 9 onwards, the Annual Review must include a focus on 'Preparing for Adulthood' (PfA). This covers four main areas: higher education/employment, independent living, participating in society, and being as healthy as possible. The EHCP should reflect these goals by shifting outcomes toward life skills, vocational training, and transition to adult health services. A well-constructed Year 9 review prevents the 'cliff-edge' that many young people face when leaving the school system.",
     "postedBy": "Transition Specialist",
+    "username": "pfa_specialist",
+    "category": "Post-16 Transition",
     "createdOn": "2024-04-13T14:00:00Z"
   },
   {
     "title": "The 'Working Document' for Tribunals",
     "content": "When appealing the contents of an EHCP, the most important tool is the 'Working Document.' This is a version of the EHCP that circulates between the parents and the LA before the hearing. Parents use different formatting (like bold or underlined text) to show the changes they want, and the LA uses their own formatting to show what they agree or disagree with. The goal is to narrow down the areas of disagreement so the Tribunal judge only has to decide on the points that remain 'in red.' Consistency and evidence-based drafting are key here.",
     "postedBy": "SEND Legal Clerk",
+    "username": "legal_clerk_send",
+    "category": "Appeals & Mediation",
     "createdOn": "2024-04-14T11:10:00Z"
   },
   {
     "title": "What to do if Provision is Not Being Met",
     "content": "If a Final EHCP is in place but the school or LA is not providing the support listed in Section F, they are in breach of Section 42 of the Children and Families Act 2014. Your first step should be a formal 'Letter of Complaint' to the Local Authority (not just the school). If this doesn't resolve the issue within a few weeks, parents can pursue a 'Judicial Review.' This is a high-level legal challenge to force the LA to comply with its statutory duties. Many charities provide templates for these 'pre-action protocol' letters.",
     "postedBy": "Education Lawyer",
+    "username": "edu_lawyer_pro",
+    "category": "Legal & Rights",
     "createdOn": "2024-04-15T15:40:00Z"
   },
   {
     "title": "Choosing Between Mainstream and Specialist Schools",
     "content": "Under the law, there is a 'presumption in favor of mainstream education.' This means the LA must provide a mainstream place unless it is incompatible with the efficient education of others and there are no 'reasonable steps' to prevent that incompatibility. However, many parents feel a specialist setting (Special School or an ARP) is necessary. To secure a specialist placement against LA wishes, you generally need to prove that the child's needs are so complex that a mainstream environment—even with 1:1 support—cannot provide the required 'peer group' or therapeutic environment.",
     "postedBy": "SEN Placement Advisor",
+    "username": "placement_advisor",
+    "category": "School Placement",
     "createdOn": "2024-04-16T10:00:00Z"
   },
   {
     "title": "The Role of the SENCO in the EHCP Process",
     "content": "The Special Educational Needs Coordinator (SENCO) is your primary point of contact in school. While the LA makes the final decisions, the SENCO provides the day-to-day evidence of your child's needs. They are responsible for coordinating the 'Assess, Plan, Do, Review' cycles that happen before an EHCP is requested. A supportive SENCO will help you gather reports and will be honest about what the school can and cannot provide without extra funding. Building a collaborative relationship with the SENCO is often the most effective way to ensure the EHCP is implemented properly.",
     "postedBy": "School SENCO",
+    "username": "school_senco_direct",
+    "category": "Professional Advice",
     "createdOn": "2024-04-17T09:20:00Z"
   },
   {
     "title": "Post-16 EHCPs and the 'Notional' Year 14",
     "content": "An EHCP can continue until the young person is 25, provided they remain in education or training and it is still necessary. This includes further education colleges and apprenticeships, but not university (HE). After age 16, the 'right' to the EHCP transfers from the parent to the young person, though many parents still act as their 'representative.' The focus shifts heavily toward 'Preparing for Adulthood' outcomes. If a young person is not ready to leave education at 18, the plan can be extended to help them gain the skills needed for the workplace.",
     "postedBy": "Post-16 Lead",
+    "username": "post16_lead_send",
+    "category": "Post-16 Transition",
     "createdOn": "2024-04-18T13:15:00Z"
   },
   {
     "title": "Home-to-School Transport and the EHCP",
     "content": "Transport is not usually part of the EHCP itself (it's rarely in Section F), but having an EHCP can make a child an 'eligible child' for free transport. If a child is attending the 'nearest suitable school' named in their plan and it is beyond the statutory walking distance (or they cannot walk it due to their disability), the LA must provide transport. This can be a bus, a taxi, or a mileage allowance. Always check your LA’s specific 'Post-16 Transport Policy' as the rules change once a student finishes Year 11.",
     "postedBy": "Transport Policy Officer",
+    "username": "transport_policy_sen",
+    "category": "Finance & Funding",
     "createdOn": "2024-04-19T11:40:00Z"
   },
   {
     "title": "Top Tips for Writing Your 'Parental Views'",
     "content": "Section A is your chance to tell your child's story. Don't just focus on what they can't do; talk about their aspirations, what they love, and what a 'good day' looks like. However, be brutally honest about the challenges at home—meltdowns, sleep deprivation, or social isolation. This section sets the tone for the entire plan. It is the only part of the document that is entirely yours. Use it to humanize the data and reports, ensuring the professionals reading the plan see the child as an individual, not just a set of diagnoses.",
     "postedBy": "Parent Support Group Leader",
+    "username": "parent_support_vox",
+    "category": "EHCP Sections",
     "createdOn": "2024-04-20T17:00:00Z"
   }
 ]

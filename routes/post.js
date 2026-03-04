@@ -9,8 +9,8 @@ const { authMiddleware } = require("../utils/auth");
 // Route to add a new post
 app.post("/", authMiddleware, async (req, res) => {
   try {
-    const { title, content} = req.body;
-    const post = await Post.create({ title, content, postedBy: req.user.username });
+    const { title, content, postedBy} = req.body;
+    const post = await Post.create({ title, content, postedBy:req.user.username });
 
     res.status(201).json(post);
   } catch (error) {
@@ -61,6 +61,7 @@ app.put("/:id", authMiddleware, async (req, res) => {
 // Route to delete a post
 app.delete("/:id", authMiddleware, async (req, res) => {
   try {
+  console.log(`User ${req.user.username} is trying to delete post ${req.params.id}`);
    const deletedRows = await Post.destroy({ 
       where: { id: req.params.id, postedBy: req.user.username } 
     });

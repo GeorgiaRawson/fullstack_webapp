@@ -11,12 +11,40 @@
 <body>
     <div class="contianer hidden" id="user-container">
       <div class="user-bar">
-        <span>Welcome, User</span>
+        <span>Welcome, User. </span>
         <button onclick="logout()" class="btn-logout">Logout</button>
         </div>  
     </div>
     <div class="hero">
         <h1>EHCP - A Parents Guide</h1>
+    </div>
+    <div class="ehcp-legal-box">
+    <h3>The Legal Threshold: Can You Apply?</h3>
+    
+    <p>Many parents are told they need a formal diagnosis or "years of evidence" to apply for an assessment. <strong>This is a myth.</strong></p>
+
+    <div class="ehcp-legal-quote">
+        <p>Under <strong>Section 36(8) of the Children and Families Act 2014</strong>, the Local Authority <strong>must</strong> carry out an EHC needs assessment if:</p>
+        <ul>
+            <li>The child <strong>has or <span class="text-highlight">may</span> have</strong> special educational needs (SEN); <strong>and</strong></li>
+            <li>It <strong><span class="text-highlight">may</span> be necessary</strong> for special educational provision to be made in accordance with an EHC plan.</li>
+        </ul>
+    </div>
+    <p class="ehcp-legal-footer">
+        <strong>Crucial Note:</strong> The law uses the word <strong>"MAY."</strong> This is a intentionally low legal bar. You do not need to prove an EHCP is definitely required yet—only that it might be.
+    </p>
+</div>
+ <div class="container" id="auth-container">
+        <h2>Register</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="register()">Register</button>
+        <hr>
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Email">
+        <input type="password" id="login-password" placeholder="Password">
+        <button onclick="login()">Login</button>
     </div>
     <div class="ehcp-info-header">
   <div class="timeline-meta">
@@ -42,25 +70,13 @@
     </div>
   </div>
 </div>
-    <div class="container" id="auth-container">
-        <h2>Register</h2>
-        <input type="text" id="username" placeholder="Username">
-        <input type="email" id="email" placeholder="Email">
-        <input type="password" id="password" placeholder="Password">
-        <button onclick="register()">Register</button>
-        <hr>
-        <h2>Login</h2>
-        <input type="email" id="login-email" placeholder="Email">
-        <input type="password" id="login-password" placeholder="Password">
-        <button onclick="login()">Login</button>
-    </div>
+   
 
     <div class="container hidden" id="app-container">
         <h2>Create a Post</h2>
         <input type="text" id="post-title" placeholder="Title">
         <textarea id="post-content" placeholder="Content"></textarea>
         <button onclick="createPost()">Submit Post</button>
-        <hr>
         <h2>Posts</h2>
         <button onclick="fetchPosts()">Load Posts</button>
         <div id="posts"></div>
